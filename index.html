@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken Johansen | Python & React Developer | Kubernetes Specialist</title>
+    <meta name="description" content="Ken Johansen is a Python & React developer specializing in secure, cloud-native applications on Kubernetes. CompTIA Security+ certified.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/kenjohansen.jpg" alt="Ken Johansen" class="header-avatar">
+                        <span>Ken Johansen</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="btn-primary">Contact</a></li>
+                    <li class="theme-toggle">
+                        <button id="theme-toggle-btn" aria-label="Toggle theme">
+                            <i class="fas fa-sun light-icon"></i>
+                            <i class="fas fa-moon dark-icon"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Python & React Developer</h1>
+                <h2>Kubernetes Specialist</h2>
+                <p>Building modern cloud-native applications with security at their core.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn-secondary">View My Work</a>
+                </div>
+                <div class="hero-badges">
+                    <span class="badge">CompTIA Security+</span>
+                    <span class="badge">CompTIA Network+</span>
+                    <span class="badge">CompTIA A+</span>
+                    <span class="badge">CompTIA Project+</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/kenjohansen.jpg" alt="Ken Johansen - Python & React Developer">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>My approach to development</p>
+            </div>
+            <div class="about-content">
+                <div class="about-skills">
+                    <div class="tech-icons">
+                        <div class="tech-icon-item" title="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-icon-item" title="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="tech-icon-item" title="Kubernetes">
+                            <img src="images/kubernetes.svg" alt="Kubernetes" class="custom-icon">
+                        </div>
+                        <div class="tech-icon-item" title="Docker">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="tech-icon-item" title="AWS">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <div class="tech-icon-item" title="GCP">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="tech-icon-item" title="JavaScript">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="tech-icon-item" title="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="tech-icon-item" title="PHP">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <div class="tech-icon-item" title="Java">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="tech-icon-item" title="HTML5">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="tech-icon-item" title="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="tech-icon-item" title="Vue.js">
+                            <i class="fab fa-vuejs"></i>
+                        </div>
+                        <div class="tech-icon-item" title=".NET">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <div class="tech-icon-item" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="tech-icon-item" title="GitLab">
+                            <i class="fab fa-gitlab"></i>
+                        </div>
+                        <div class="tech-icon-item" title="Ubuntu">
+                            <i class="fab fa-ubuntu"></i>
+                        </div>
+                        <div class="tech-icon-item" title="Red Hat">
+                            <i class="fab fa-redhat"></i>
+                        </div>
+                        <div class="tech-icon-item" title="MySQL">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="tech-icon-item" title="MongoDB">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="tech-icon-item" title="Android">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="tech-icon-item" title="IoT">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="tech-icon-item" title="MQTT">
+                            <img src="images/mqtt.svg" alt="MQTT" class="custom-icon">
+                        </div>
+                        <div class="tech-icon-item" title="Kafka">
+                            <img src="images/kafka.svg" alt="Kafka" class="custom-icon">
+                        </div>
+                        <div class="tech-icon-item" title="WebSockets">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="tech-icon-item" title="API">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <div class="tech-icon-item" title="IBM">
+                            <i class="fab fa-ibm"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Python & React Developer | Kubernetes Specialist</h3>
+                    <p>I'm a software developer specializing in modern cloud-native applications built with Python and React, deployed on Kubernetes with security best practices built in from day one.</p>
+                    <p>With a Bachelor's degree in Information Technology (Software Development) from Western Governors University and multiple CompTIA certifications, I bring both formal education and practical expertise to every project I undertake.</p>
+                    <p>My development philosophy centers around:</p>
+                    <ul>
+                        <li><strong>Security-First Development:</strong> Building security into applications from the ground up</li>
+                        <li><strong>Pragmatic Solutions:</strong> Choosing the right tools for each specific problem</li>
+                        <li><strong>Performance Optimization:</strong> Creating applications that scale efficiently</li>
+                        <li><strong>Documentation:</strong> Ensuring knowledge transfer and maintainability</li>
+                        <li><strong>Testing:</strong> Comprehensive test coverage for reliable systems</li>
+                    </ul>
+                    <div class="about-links">
+                        <a href="https://linkedin.com/in/kenneyjohansen" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/kenjohansen" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://orcid.org/0009-0002-2796-550X" target="_blank"><i class="fab fa-orcid"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <p>My technical expertise</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skills-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                                <h4>Python</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Accelerate development with Python's versatility for backend systems, data analysis, and AI integration. Reduce time-to-market by 40% compared to traditional languages.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <h4>JavaScript</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create responsive, interactive web applications that increase user engagement by 35% and reduce bounce rates. Enable seamless cross-platform experiences.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-java"></i></div>
+                                <h4>Java</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Build enterprise-grade applications with 99.9% uptime. Leverage existing Java investments while modernizing legacy systems for cloud deployment.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+                                <h4>C#</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Develop high-performance Windows applications and services. Integrate seamlessly with Microsoft ecosystem for 30% faster deployment in corporate environments.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-php"></i></div>
+                                <h4>PHP</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Maintain and optimize existing web platforms. Leverage widespread hosting support for cost-effective solutions with 60% lower hosting costs.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+                                <h4>VB.NET</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Modernize legacy Visual Basic applications. Extend the lifespan of business-critical systems while planning strategic migrations to newer technologies.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3>Frontend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                                <h4>React</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Deliver high-performance single-page applications with React that load 2.5x faster than traditional websites. Enable rich user experiences that increase conversion rates by up to 25%.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-vuejs"></i></div>
+                                <h4>Vue.js</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create lightweight, progressive web applications that improve page load times by 40%. Reduce development costs with Vue's gentle learning curve and excellent documentation.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                <h4>HTML5</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Build accessible, SEO-friendly websites that improve organic traffic by 30%. Ensure cross-browser compatibility and adherence to web standards for maximum market reach.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                                <h4>CSS3/SASS</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create visually stunning, brand-consistent interfaces that reduce bounce rates by 25%. Implement responsive designs that work flawlessly across all devices, increasing mobile conversions.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                                <h4>Node.js</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Build scalable, event-driven backend services that handle 10x more concurrent users than traditional architectures. Reduce server costs while improving application responsiveness.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                                <h4>Responsive Design</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create websites that adapt perfectly to any device, increasing mobile conversions by 55%. Reduce development costs by maintaining a single codebase instead of separate mobile and desktop versions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3>DevOps & Cloud</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><img src="images/kubernetes.svg" alt="Kubernetes" class="custom-icon"></div>
+                                <h4>Kubernetes</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Orchestrate containerized applications for 99.99% uptime and 3x faster deployments. Enable auto-scaling that reduces cloud costs by up to 45% while handling traffic spikes seamlessly.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                                <h4>Docker</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Standardize application environments to eliminate "works on my machine" issues. Reduce onboarding time for new developers by 70% and ensure consistent deployments across all environments.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                                <h4>AWS</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Leverage AWS's extensive service ecosystem to reduce infrastructure costs by 30%. Implement serverless architectures that scale automatically and only charge for actual usage.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-google"></i></div>
+                                <h4>GCP</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Utilize Google's cutting-edge AI and machine learning services to extract actionable insights from your data. Benefit from GCP's global network for 40% faster content delivery worldwide.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-github-alt"></i></div>
+                                <h4>CI/CD</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Implement automated testing and deployment pipelines that catch 95% of bugs before production. Reduce release cycles from weeks to hours while improving software quality.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                                <h4>DevOps</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Bridge the gap between development and operations to increase deployment frequency by 200x. Reduce mean time to recovery from hours to minutes when issues arise.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3>Databases & Data</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <h4>MySQL/MariaDB</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Implement reliable, cost-effective relational databases with proven technology. Optimize queries for up to 300% performance improvements and reduce database response times by 65%.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <h4>PostgreSQL</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Leverage PostgreSQL's advanced features for complex data models and geospatial applications. Ensure data integrity while supporting high transaction volumes with 99.99% reliability.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                                <h4>MongoDB</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Implement flexible, schema-less databases that adapt to changing business requirements without downtime. Scale horizontally to handle millions of operations per second.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-search"></i></div>
+                                <h4>Elasticsearch</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Implement lightning-fast search capabilities that reduce user search time by 80%. Enable complex analytics on large datasets to uncover business insights that drive revenue growth.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-table"></i></div>
+                                <h4>Trino/Athena</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Query petabytes of data across multiple sources without expensive data movement. Reduce data warehouse costs by 60% while enabling faster business intelligence.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-water"></i></div>
+                                <h4>Data Lake</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create centralized repositories for all your structured and unstructured data. Enable data scientists to derive insights that increase operational efficiency by 25% and identify new revenue streams.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3>Operating Systems & Methodologies</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-ubuntu"></i></div>
+                                <h4>Ubuntu</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Reduce licensing costs by up to 70% with open-source Linux solutions. Improve server stability with systems that rarely need rebooting, achieving 99.9% uptime for critical services.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-redhat"></i></div>
+                                <h4>Red Hat</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Implement enterprise-grade Linux with professional support. Ensure regulatory compliance and security while reducing total cost of ownership by 35% compared to proprietary solutions.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                                <h4>Scrum</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Deliver working software every 2-4 weeks with iterative development. Increase project success rates by 250% and reduce time-to-market by implementing effective sprint planning and retrospectives.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                                <h4>Agile</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Adapt quickly to changing market conditions and customer needs. Reduce waste by 30% while increasing team productivity and stakeholder satisfaction through continuous delivery and feedback.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-recycle"></i></div>
+                                <h4>LEAN</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Eliminate non-value-adding activities to reduce development costs by 25%. Focus on delivering what customers truly need, improving quality while minimizing resource consumption.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-magic"></i></div>
+                                <h4>Bubble.io/Backendless</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create functional MVPs and prototypes 10x faster with no-code platforms. Validate business ideas with minimal investment before committing to full-scale development.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3>Mobile Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-android"></i></div>
+                                <h4>Android</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Reach over 2.5 billion active Android users worldwide. Create native apps with superior performance and device integration that increase user retention by 40% compared to web apps.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                                <h4>React Native</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Reduce mobile development costs by 40% with cross-platform solutions. Maintain a single codebase while delivering native-like performance and user experience on both iOS and Android.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                                <h4>Mobile UI/UX</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create intuitive mobile interfaces that increase user satisfaction by 60%. Implement gesture-based navigation and responsive layouts that boost engagement and reduce abandonment rates.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-sync"></i></div>
+                                <h4>Mobile Data Sync</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Enable seamless offline functionality with robust data synchronization. Increase user productivity by 35% by allowing work to continue regardless of network connectivity.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-bell"></i></div>
+                                <h4>Push Notifications</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Boost user engagement by 88% with targeted push notifications. Implement personalized messaging strategies that increase app retention and drive conversions for key business goals.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                                <h4>Kotlin/Java</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Develop high-performance Android applications with modern, type-safe languages. Reduce app crashes by 65% and improve development velocity with Kotlin's concise syntax and null safety.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3>Data Integration & Streaming</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><img src="images/kafka.svg" alt="Kafka" class="custom-icon"></div>
+                                <h4>Apache Kafka</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Process millions of events per second with fault-tolerant message streaming. Enable real-time data pipelines and analytics that provide immediate business insights and 99.99% reliability.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><img src="images/mqtt.svg" alt="MQTT" class="custom-icon"></div>
+                                <h4>MQTT</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Connect IoT devices with minimal bandwidth and battery consumption. Reduce connectivity costs by 70% while enabling reliable communication even in unreliable network conditions.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                                <h4>IoT Solutions</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Transform physical operations with smart, connected devices. Reduce maintenance costs by 40% through predictive analytics and increase operational efficiency with real-time monitoring.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-exchange-alt"></i></div>
+                                <h4>WebSockets/SSE</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Create responsive real-time web applications that update instantly. Improve user experience with live data that increases engagement by 45% and reduces perceived wait times.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                                <h4>API/Webhooks</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Connect disparate systems and enable seamless data flow across your organization. Reduce integration costs by 50% while creating new business capabilities through API-first architecture.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-random"></i></div>
+                                <h4>Apache Pulsar/AMQP</h4>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <div class="skill-business-value">
+                                    <p>Implement next-generation messaging systems with geo-replication and multi-tenancy. Support global operations with messaging that spans data centers while maintaining strict data sovereignty.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Python Backend Development</h3>
+                    <p>Secure, scalable backend services built with FastAPI or Django. RESTful API design with comprehensive authentication and authorization.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React Frontend Development</h3>
+                    <p>Modern, responsive user interfaces built with React and TypeScript. State management, hooks, and performance optimization.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Kubernetes Deployment</h3>
+                    <p>Production-ready Kubernetes configurations with security best practices. CI/CD pipeline setup and infrastructure as code.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Implementation</h3>
+                    <p>OWASP security best practices, penetration testing, and vulnerability assessment. Secure authentication and authorization systems.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Cross-platform mobile applications built with React Native. Native-like performance with code reusability.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>DevOps & CI/CD</h3>
+                    <p>Automated testing, continuous integration, and deployment pipelines. Infrastructure as code and GitOps workflows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p>My recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-1.jpg" alt="Secure Banking API">
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Banking API</h3>
+                        <p>A Python FastAPI implementation of a secure banking API with JWT authentication, role-based access control, and comprehensive security features.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>PostgreSQL</span>
+                            <span>JWT</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">View Demo</a>
+                            <a href="https://github.com/kenjohansen" class="btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-2.jpg" alt="React Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>React Analytics Dashboard</h3>
+                        <p>A modern React dashboard with data visualization, real-time updates, and responsive design. Features comprehensive authentication and role-based access.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Redux</span>
+                            <span>Chart.js</span>
+                            <span>Material-UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">View Demo</a>
+                            <a href="https://github.com/kenjohansen" class="btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-3.jpg" alt="Kubernetes Deployment">
+                    </div>
+                    <div class="project-content">
+                        <h3>Kubernetes Deployment Framework</h3>
+                        <p>A production-ready Kubernetes deployment framework with secure configuration, GitOps workflow, and comprehensive monitoring.</p>
+                        <div class="project-tags">
+                            <span>Kubernetes</span>
+                            <span>Helm</span>
+                            <span>ArgoCD</span>
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">View Demo</a>
+                            <a href="https://github.com/kenjohansen" class="btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/kenjohansen" class="btn-primary">View All Projects on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p>Get in touch</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm currently available for freelance projects and consulting engagements. If you have a project that needs expertise in Python, React, or Kubernetes, I'd love to hear from you.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:kenney.johansen@gmail.com">kenney.johansen@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <a href="https://kenjohansen.dev">kenjohansen.dev</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/kenneyjohansen">linkedin.com/in/kenneyjohansen</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/kenjohansen">github.com/kenjohansen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">Ken Johansen</a>
+                    <p>Python & React Developer | Kubernetes Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/kenneyjohansen" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/kenjohansen" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://orcid.org/0009-0002-2796-550X" target="_blank"><i class="fab fa-orcid"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ken Johansen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Scroll header effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Theme toggle functionality
+        const themeToggleBtn = document.getElementById('theme-toggle-btn');
+        
+        // Function to set theme
+        function setTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.body.classList.remove('light-mode');
+                localStorage.setItem('theme', 'dark');
+            } else if (theme === 'light') {
+                document.body.classList.add('light-mode');
+                document.body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.body.classList.remove('light-mode');
+                document.body.classList.remove('dark-mode');
+                localStorage.removeItem('theme');
+            }
+        }
+        
+        // Initialize theme
+        function initializeTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            
+            if (savedTheme) {
+                setTheme(savedTheme);
+            } else {
+                // Set dark mode as default
+                setTheme('dark');
+            }
+        }
+        
+        // Toggle between light, dark, and system theme
+        themeToggleBtn.addEventListener('click', () => {
+            if (document.body.classList.contains('light-mode')) {
+                // Light → Dark
+                setTheme('dark');
+            } else if (document.body.classList.contains('dark-mode')) {
+                // Dark → System
+                setTheme('system');
+            } else {
+                // System → Light
+                setTheme('light');
+            }
+        });
+        
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            const savedTheme = localStorage.getItem('theme');
+            if (!savedTheme) {
+                // Only update if user hasn't set a preference
+                if (e.matches) {
+                    document.body.classList.add('dark-mode');
+                    document.body.classList.remove('light-mode');
+                } else {
+                    document.body.classList.add('light-mode');
+                    document.body.classList.remove('dark-mode');
+                }
+            }
+        });
+        
+        // Initialize theme on page load
+        initializeTheme();
+    </script>
+</body>
+</html>
