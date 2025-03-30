@@ -12,7 +12,8 @@ This is a responsive, modern portfolio website built with HTML, CSS, and JavaScr
 - Modern and clean UI with smooth animations
 - Sections for showcasing skills, services, and projects
 - Contact form for potential clients
-- Integration with social profiles (LinkedIn, GitHub, ORCID)
+- Integration with social profiles (LinkedIn, GitHub)
+- Dark mode as default with light mode option
 
 ## Structure
 
@@ -49,15 +50,10 @@ Configure the following DNS records in your domain provider (GoDaddy):
 - CNAME Record:
   - www -> kenjohansen.dev
 
-## Image Credits
-
-- Placeholder images are used for demonstration purposes
-- Replace with your own professional images before deployment
-
 ## License
 
 All rights reserved. This code is not licensed for reuse without permission.
 
 ---
 
-© 2025 Ken Johansen
+ 2025 Ken Johansen
